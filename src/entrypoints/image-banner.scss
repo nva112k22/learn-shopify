@@ -96,6 +96,31 @@
     // }
 }
 
+// .banner__media {
+//   min-height: 100%;
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   width: 100%;
+//   img {
+//     min-height: 100%;
+//     max-width: 100%;
+//     object-fit: cover;
+//     top: 0;
+//     left: 0;
+//   }
+//   svg {
+//     min-height: 100%;
+//     max-width: 100%;
+//   }
+// }
+
+// @media only screen and (max-width: 749px) {
+// .banner__media {
+//   height: auto;
+// }
+// }
+
 .banner__media-half {
     width: 50%;
   }

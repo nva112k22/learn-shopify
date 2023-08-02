@@ -68,7 +68,7 @@
                   }}
                 </div>
               {%- endif -%}
-        <div class="banner_content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <div class="banner__content banner__content--{{ section.settings.desktop_content_position }}">
             <div class="banner__box banner__box content-container content-container--full-width-mobile">
             {%- for block in section.blocks -%}
                 {%- case block.type -%}
